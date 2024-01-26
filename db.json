@@ -1,0 +1,54 @@
+{
+  "peliculas": [
+    {
+      "titulo": "La muerte tenía un precio",
+      "categoria": "Western",
+      "descripcion": "Dos cazadores de recompensas que buscan al mismo hombre deciden unir sus fuerzas para encontrarlo, aunque las razones que los mueven son completamente diferentes...",
+      "foto": "https://pics.filmaffinity.com/per_qualche_dollaro_in_piu-587045376-mmed.jpg",
+      "year": "1965",
+      "id": "f293"
+    },
+    {
+      "id": "fe45",
+      "descripcion": "Regan, una niña de doce años, sufre fenómenos paranormales como la levitación o la manifestación de una fuerza sobrehumana. Su madre, aterrorizada, tras someter a su hija a múltiples análisis médicos que no ofrecen ningún resultado, acude a un sacerdote con estudios de psiquiatría. Éste, convencido de que el mal no es físico sino espiritual, cree que se trata de una posesión diabólica, y decide practicar un exorcismo... ",
+      "foto": "https://pics.filmaffinity.com/the_exorcist-742137399-mmed.jpg",
+      "year": "1973",
+      "categoria": "Terror",
+      "titulo": "El exorcista"
+    },
+    {
+      "id": "0646",
+      "descripcion": "Brian nace en un pesebre de Belén el mismo día que Jesucristo. Un cúmulo de desgraciados y tronchantes equívocos le harán llevar una vida paralela a la del verdadero Hijo de Dios. Sus pocas luces y el ambiente de decadencia y caos absoluto en que se haya sumergida la Galilea de aquellos días, le harán vivir en manos de su madre, de una feminista revolucionaria y del mismísimo Poncio Pilatos, su propia versión del calvario",
+      "foto": "https://pics.filmaffinity.com/monty_python_s_life_of_brian-402192024-mmed.jpg",
+      "year": "1979",
+      "categoria": "Comedia",
+      "titulo": "La vida de Brian"
+    },
+    {
+      "id": "23c1",
+      "descripcion": "Harry Callahan (Clint Eastwood) es un duro policía que se ha criado en la calles de San Francisco. Sus compañeros le llaman Harry el Sucio por sus particulares métodos de lucha contra el crimen y porque siempre se encarga de los trabajos más desagradables. Cuando un francotirador que se hace llamar 'Scorpio' asesina a una mujer desde una azotea y promete matar a más personas si la ciudad no le paga 100.000 dólares, el inspector Callahan será el encargado de intentar resolver el caso.",
+      "foto": "https://pics.filmaffinity.com/dirty_harry-681952792-mmed.jpg",
+      "year": "1971",
+      "categoria": "Acción",
+      "titulo": "Harry el sucio"
+    }
+  ],
+  "categorias": [
+    {
+      "id": "1",
+      "nombre": "terror"
+    },
+    {
+      "id": "2",
+      "nombre": "acción"
+    },
+    {
+      "id": "3",
+      "nombre": "western"
+    },
+    {
+      "id": "4",
+      "nombre": "comedia"
+    }
+  ]
+}
