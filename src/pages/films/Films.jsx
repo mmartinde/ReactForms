@@ -1,29 +1,25 @@
 import { Col, Container, Row } from "react-bootstrap";
 import { useState, useEffect } from "react";
 import Item from "../../components/item/item";
+import axios from "axios";
+
 function Films() {
   const [items, setItems] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/peliculas").then((respuesta) =>
-      respuesta.json().then((datos) => {
-        setItems(datos);
-      })
-    );
+/*   fetch("http://localhost:3000/peliculas").then((respuesta) =>
+    respuesta.json().then((datos) => {
+      setItems(datos);
+    })
+  ); */
+
+    axios.get ("http://localhost:3000/peliculas")
+    .then ((response)=>{
+      setItems([...items, ...response.data])
+    })
   }, []);
 
-  function insertarItem(item) {
-    fetch("http://localhost:3000/peliculas", {
-      method: "POST",
-      body: JSON.stringify(item),
-    })
-      .then(() => {
-        setItems([...items, item]);
-      })
-      .catch((error) => {
-        alert("Error al subir laa pelicula");
-      });
-  }
+  
 
   return (
     <>

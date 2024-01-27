@@ -11,6 +11,8 @@ import Contact from "./pages/contact/contact";
 import NavigationBar from "./pages/navigationbar/navigationbar";
 import { Route, Routes } from "react-router-dom";
 import InsertFilms from "./pages/insertFilms/InsertFilms";
+import Footer from "./pages/footer/Footer";
+import Login from "./pages/login/Login";
 
 function App() {
  
@@ -27,10 +29,13 @@ function App() {
           <Route path="/peliculas" element={<Films></Films>}></Route>
           <Route path="/contacto" element={<Contact></Contact>}></Route>
           <Route path="/nueva-pelicula" element={<InsertFilms></InsertFilms>}></Route>
+          <Route path="/login" element={<Login></Login>}></Route>
         </Routes>
       </Container>
 
-      <footer>footer</footer>
+      <footer>
+      <Footer></Footer>
+      </footer>
     </>
   );
 }
